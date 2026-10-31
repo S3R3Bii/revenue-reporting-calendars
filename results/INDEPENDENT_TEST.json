@@ -1,0 +1,8 @@
+{
+  "status": "PASS",
+  "phase": "test",
+  "independent_sql_fraction_conditions": 4243,
+  "source_rows": 373,
+  "pairs": 62,
+  "production_model_imported": false
+}

@@ -1,0 +1,32 @@
+{
+  "freeze_sha256": "471f8090f63fb4c4b3f5af0b9a4c90d3306ad41af90590ef330f797f2820228a",
+  "gates": {
+    "counts": {
+      "test": {
+        "0000104169": 4,
+        "0000320193": 5,
+        "0000789019": 4
+      },
+      "train": {
+        "0000320193": 7,
+        "0000789019": 8
+      },
+      "validation": {
+        "0000320193": 6,
+        "0000789019": 6
+      }
+    },
+    "validation_closure": "2024-02-03"
+  },
+  "overall_validation_winner": "zero",
+  "selected_alpha": {
+    "calendar": 0,
+    "fiscal": 0
+  },
+  "selection_loss": "equal-company macro MAPE",
+  "source_pairs_sha256": "2497232533561e10ca8c4bb42fbdd27c1fe00936b05fa05b1041921befdb3cb1",
+  "validation_sha256": {
+    "validation_metrics.csv": "2fdbebe13b306d1c08c6d8cc1967d97ea77e7019d9e025bba74ce1cd9c2afbef",
+    "validation_predictions.csv": "a17fea749dc735df0b77f07d96f452549567ffc238cf5383d4df90f681d78911"
+  }
+}

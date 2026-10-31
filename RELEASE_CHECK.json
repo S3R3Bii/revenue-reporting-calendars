@@ -1,0 +1,26 @@
+{
+  "state": "CANDIDATE_READY",
+  "scope": "independent-program-study",
+  "formal_submission_target": false,
+  "source_gate": "PASS_CONDITIONAL_CURRENT_SOURCE_RECONSTRUCTION",
+  "native_conditions": 38426,
+  "independent_final_conditions": 4243,
+  "fixture_methods": 32,
+  "exercise_conditions": 23,
+  "source_entries": 373,
+  "filing_metadata_rows": 7007,
+  "annual_pairs": 62,
+  "protected_test_pairs": 13,
+  "validation_candidates": 10,
+  "test_forecasters": 4,
+  "frozen_dependencies": 26,
+  "selection_commit": "771dfdb4c9a45fad55bc826be633f5ec13c1716d",
+  "posttest_method_or_primary_output_amendments": false,
+  "isolated_replays": [
+    "3.10.11",
+    "3.12.14"
+  ],
+  "immutable_production_vintage": "UNESTABLISHED",
+  "candidate_main_CI_tag_metadata": "PENDING",
+  "not_peer_reviewed": true
+}

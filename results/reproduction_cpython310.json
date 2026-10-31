@@ -1,0 +1,25 @@
+{
+  "status": "PASS",
+  "python": "3.10.11",
+  "reproduced_files": [
+    "source_accounts.csv",
+    "observations.csv",
+    "pair_accounts.csv",
+    "pairs.csv",
+    "source_summary.json",
+    "validation_predictions.csv",
+    "validation_metrics.csv",
+    "selection.json",
+    "test_predictions.csv",
+    "test_metrics.csv",
+    "paired_losses.csv",
+    "sensitivity.csv",
+    "summary.json",
+    "exercise.json"
+  ],
+  "unchanged_source_files": 6,
+  "native_redownload": false,
+  "qualification": "Saved minimal source replay, not immutable historical-vintage certification or independent reacquisition.",
+  "checkout_head": "0e898e6be9392e1fd166fd862ecaaaace4588deb",
+  "full_history": true
+}

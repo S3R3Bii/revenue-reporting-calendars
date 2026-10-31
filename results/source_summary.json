@@ -1,0 +1,22 @@
+{
+  "company_observations": {
+    "Apple": 24,
+    "Microsoft": 24,
+    "Walmart": 23
+  },
+  "facts": 373,
+  "filing_rows": 7007,
+  "observations": 71,
+  "pair_statuses": {
+    "paired": 62,
+    "prior_slot_unavailable": 9
+  },
+  "pairs": 62,
+  "statuses": {
+    "comparative_or_noncurrent_end": 121,
+    "not_original_10Q": 131,
+    "not_quarter_duration": 48,
+    "outside_observation_window": 2,
+    "selected_observation": 71
+  }
+}

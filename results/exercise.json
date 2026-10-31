@@ -1,0 +1,171 @@
+[
+  {
+    "request": {
+      "model": "fiscal",
+      "origin": "2024-06-08",
+      "pair_id": "0000104169:2026:Q1",
+      "scope": "reported_fiscal_slot_forecast"
+    },
+    "response": {
+      "calendar_quarter": "2",
+      "fit_ids": [
+        "0000320193:2020:Q1",
+        "0000320193:2020:Q2",
+        "0000320193:2020:Q3",
+        "0000320193:2021:Q1",
+        "0000320193:2021:Q2",
+        "0000320193:2021:Q3",
+        "0000320193:2022:Q1",
+        "0000320193:2022:Q2",
+        "0000320193:2022:Q3",
+        "0000320193:2023:Q1",
+        "0000320193:2023:Q2",
+        "0000320193:2023:Q3",
+        "0000320193:2024:Q1",
+        "0000789019:2020:Q1",
+        "0000789019:2020:Q2",
+        "0000789019:2020:Q3",
+        "0000789019:2021:Q1",
+        "0000789019:2021:Q2",
+        "0000789019:2021:Q3",
+        "0000789019:2022:Q1",
+        "0000789019:2022:Q2",
+        "0000789019:2022:Q3",
+        "0000789019:2023:Q1",
+        "0000789019:2023:Q2",
+        "0000789019:2023:Q3",
+        "0000789019:2024:Q1",
+        "0000789019:2024:Q2"
+      ],
+      "forecast_usd": "8296777063032199032059515797788466656165627114470000/46756476937939864163158916654682480617991",
+      "known_fp": "Q1",
+      "origin": "2024-06-08",
+      "prior_usd": "159938000000",
+      "qualification": "Conditional current-source filing-day reconstruction and persistent fiscal-slot assumption; not immutable production-vintage or investment evidence.",
+      "status": "QUALIFIED"
+    }
+  },
+  {
+    "request": {
+      "model": "calendar",
+      "origin": "2024-06-08",
+      "pair_id": "0000104169:2026:Q1",
+      "scope": "reported_fiscal_slot_forecast"
+    },
+    "response": {
+      "calendar_quarter": "2",
+      "fit_ids": [
+        "0000320193:2020:Q1",
+        "0000320193:2020:Q2",
+        "0000320193:2020:Q3",
+        "0000320193:2021:Q1",
+        "0000320193:2021:Q2",
+        "0000320193:2021:Q3",
+        "0000320193:2022:Q1",
+        "0000320193:2022:Q2",
+        "0000320193:2022:Q3",
+        "0000320193:2023:Q1",
+        "0000320193:2023:Q2",
+        "0000320193:2023:Q3",
+        "0000320193:2024:Q1",
+        "0000789019:2020:Q1",
+        "0000789019:2020:Q2",
+        "0000789019:2020:Q3",
+        "0000789019:2021:Q1",
+        "0000789019:2021:Q2",
+        "0000789019:2021:Q3",
+        "0000789019:2022:Q1",
+        "0000789019:2022:Q2",
+        "0000789019:2022:Q3",
+        "0000789019:2023:Q1",
+        "0000789019:2023:Q2",
+        "0000789019:2023:Q3",
+        "0000789019:2024:Q1",
+        "0000789019:2024:Q2"
+      ],
+      "forecast_usd": "129501464313696440893094150000/723216191408175633",
+      "known_fp": "Q1",
+      "origin": "2024-06-08",
+      "prior_usd": "159938000000",
+      "qualification": "Conditional current-source filing-day reconstruction and persistent fiscal-slot assumption; not immutable production-vintage or investment evidence.",
+      "status": "QUALIFIED"
+    }
+  },
+  {
+    "request": {
+      "model": "fiscal",
+      "origin": "2020-01-01",
+      "pair_id": "0000104169:2026:Q1",
+      "scope": "reported_fiscal_slot_forecast"
+    },
+    "response": {
+      "reason": "origin does not match saved availability contract",
+      "status": "ABSTAIN"
+    }
+  },
+  {
+    "request": {
+      "model": "fiscal",
+      "origin": "2024-06-08",
+      "pair_id": "absent",
+      "scope": "reported_fiscal_slot_forecast"
+    },
+    "response": {
+      "reason": "no unique saved test fiscal slot",
+      "status": "ABSTAIN"
+    }
+  },
+  {
+    "request": {
+      "model": "fiscal",
+      "origin": "2024-06-08",
+      "pair_id": "0000104169:2026:Q1",
+      "scope": "investment_advice"
+    },
+    "response": {
+      "reason": "unsupported claim; no investment, source-truth or exact future-date certification",
+      "status": "REJECT"
+    }
+  },
+  {
+    "request": {
+      "model": "fiscal",
+      "origin": "2024-06-08",
+      "pair_id": "0000104169:2026:Q1",
+      "scope": "source_truth"
+    },
+    "response": {
+      "reason": "unsupported claim; no investment, source-truth or exact future-date certification",
+      "status": "REJECT"
+    }
+  },
+  {
+    "request": {
+      "model": "fiscal",
+      "origin": "2024-06-08",
+      "pair_id": "0000104169:2026:Q1",
+      "scope": "exact_future_filing_date"
+    },
+    "response": {
+      "reason": "unsupported claim; no investment, source-truth or exact future-date certification",
+      "status": "REJECT"
+    }
+  },
+  {
+    "request": {
+      "caller_data": [
+        1,
+        2,
+        3
+      ],
+      "model": "fiscal",
+      "origin": "2024-06-08",
+      "pair_id": "0000104169:2026:Q1",
+      "scope": "reported_fiscal_slot_forecast"
+    },
+    "response": {
+      "reason": "unsupported fields or incomplete request",
+      "status": "REJECT"
+    }
+  }
+]

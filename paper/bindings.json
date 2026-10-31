@@ -1,0 +1,1122 @@
+[
+  {
+    "name": "BoundA",
+    "file": "results/test_metrics.csv",
+    "field": [
+      "mape_percent"
+    ],
+    "query": {
+      "model": "calendar_0",
+      "company": "MACRO"
+    },
+    "operation": "value",
+    "display": "4.758807"
+  },
+  {
+    "name": "BoundB",
+    "file": "results/test_metrics.csv",
+    "field": [
+      "mape_percent"
+    ],
+    "query": {
+      "model": "fiscal_0",
+      "company": "MACRO"
+    },
+    "operation": "value",
+    "display": "4.776929"
+  },
+  {
+    "name": "BoundC",
+    "file": "results/source_summary.json",
+    "field": [
+      "facts"
+    ],
+    "query": null,
+    "operation": "commas",
+    "display": "373"
+  },
+  {
+    "name": "BoundD",
+    "file": "results/source_summary.json",
+    "field": [
+      "filing_rows"
+    ],
+    "query": null,
+    "operation": "commas",
+    "display": "7,007"
+  },
+  {
+    "name": "BoundE",
+    "file": "results/source_summary.json",
+    "field": [
+      "observations"
+    ],
+    "query": null,
+    "operation": "commas",
+    "display": "71"
+  },
+  {
+    "name": "BoundF",
+    "file": "results/source_summary.json",
+    "field": [
+      "pairs"
+    ],
+    "query": null,
+    "operation": "commas",
+    "display": "62"
+  },
+  {
+    "name": "BoundG",
+    "file": "results/validation_metrics.csv",
+    "field": [
+      "mape_percent"
+    ],
+    "query": {
+      "model": "zero",
+      "company": "MACRO"
+    },
+    "operation": "value",
+    "display": "6.789346"
+  },
+  {
+    "name": "BoundH",
+    "file": "results/test_metrics.csv",
+    "field": [
+      "mape_percent"
+    ],
+    "query": {
+      "model": "zero",
+      "company": "MACRO"
+    },
+    "operation": "value",
+    "display": "10.048371"
+  },
+  {
+    "name": "BoundI",
+    "file": "results/source_summary.json",
+    "field": [
+      "statuses",
+      "selected_observation"
+    ],
+    "query": null,
+    "operation": "commas",
+    "display": "71"
+  },
+  {
+    "name": "BoundJ",
+    "file": "results/source_summary.json",
+    "field": [
+      "statuses",
+      "not_original_10Q"
+    ],
+    "query": null,
+    "operation": "commas",
+    "display": "131"
+  },
+  {
+    "name": "BoundK",
+    "file": "results/source_summary.json",
+    "field": [
+      "statuses",
+      "comparative_or_noncurrent_end"
+    ],
+    "query": null,
+    "operation": "commas",
+    "display": "121"
+  },
+  {
+    "name": "BoundL",
+    "file": "results/source_summary.json",
+    "field": [
+      "statuses",
+      "not_quarter_duration"
+    ],
+    "query": null,
+    "operation": "commas",
+    "display": "48"
+  },
+  {
+    "name": "BoundM",
+    "file": "results/source_summary.json",
+    "field": [
+      "statuses",
+      "outside_observation_window"
+    ],
+    "query": null,
+    "operation": "commas",
+    "display": "2"
+  },
+  {
+    "name": "BoundN",
+    "file": "results/source_summary.json",
+    "field": [
+      "facts"
+    ],
+    "query": null,
+    "operation": "commas",
+    "display": "373"
+  },
+  {
+    "name": "BoundO",
+    "file": "results/selection.json",
+    "field": [
+      "gates",
+      "validation_closure"
+    ],
+    "query": null,
+    "operation": "value",
+    "display": "2024-02-03"
+  },
+  {
+    "name": "BoundP",
+    "file": "results/selection.json",
+    "field": [
+      "selected_alpha",
+      "fiscal"
+    ],
+    "query": null,
+    "operation": "value",
+    "display": "0"
+  },
+  {
+    "name": "BoundQ",
+    "file": "results/selection.json",
+    "field": [
+      "gates",
+      "counts",
+      "test",
+      "0000320193"
+    ],
+    "query": null,
+    "operation": "value",
+    "display": "5"
+  },
+  {
+    "name": "BoundR",
+    "file": "results/selection.json",
+    "field": [
+      "gates",
+      "counts",
+      "test",
+      "0000789019"
+    ],
+    "query": null,
+    "operation": "value",
+    "display": "4"
+  },
+  {
+    "name": "BoundS",
+    "file": "results/selection.json",
+    "field": [
+      "gates",
+      "counts",
+      "test",
+      "0000104169"
+    ],
+    "query": null,
+    "operation": "value",
+    "display": "4"
+  },
+  {
+    "name": "BoundT",
+    "file": "results/test_metrics.csv",
+    "field": [
+      "n"
+    ],
+    "query": {
+      "model": "zero",
+      "company": "Apple"
+    },
+    "operation": "value",
+    "display": "5"
+  },
+  {
+    "name": "BoundU",
+    "file": "results/test_metrics.csv",
+    "field": [
+      "mae_usd"
+    ],
+    "query": {
+      "model": "zero",
+      "company": "Apple"
+    },
+    "operation": "billion",
+    "display": "12.705400"
+  },
+  {
+    "name": "BoundV",
+    "file": "results/test_metrics.csv",
+    "field": [
+      "rmse_usd"
+    ],
+    "query": {
+      "model": "zero",
+      "company": "Apple"
+    },
+    "operation": "billion",
+    "display": "13.820044"
+  },
+  {
+    "name": "BoundW",
+    "file": "results/test_metrics.csv",
+    "field": [
+      "mape_percent"
+    ],
+    "query": {
+      "model": "zero",
+      "company": "Apple"
+    },
+    "operation": "value",
+    "display": "11.087482"
+  },
+  {
+    "name": "BoundX",
+    "file": "results/test_metrics.csv",
+    "field": [
+      "n"
+    ],
+    "query": {
+      "model": "global",
+      "company": "Apple"
+    },
+    "operation": "value",
+    "display": "5"
+  },
+  {
+    "name": "BoundY",
+    "file": "results/test_metrics.csv",
+    "field": [
+      "mae_usd"
+    ],
+    "query": {
+      "model": "global",
+      "company": "Apple"
+    },
+    "operation": "billion",
+    "display": "4.037667"
+  },
+  {
+    "name": "BoundZ",
+    "file": "results/test_metrics.csv",
+    "field": [
+      "rmse_usd"
+    ],
+    "query": {
+      "model": "global",
+      "company": "Apple"
+    },
+    "operation": "billion",
+    "display": "4.318185"
+  },
+  {
+    "name": "BoundAA",
+    "file": "results/test_metrics.csv",
+    "field": [
+      "mape_percent"
+    ],
+    "query": {
+      "model": "global",
+      "company": "Apple"
+    },
+    "operation": "value",
+    "display": "3.799111"
+  },
+  {
+    "name": "BoundAB",
+    "file": "results/test_metrics.csv",
+    "field": [
+      "n"
+    ],
+    "query": {
+      "model": "fiscal_0",
+      "company": "Apple"
+    },
+    "operation": "value",
+    "display": "5"
+  },
+  {
+    "name": "BoundAC",
+    "file": "results/test_metrics.csv",
+    "field": [
+      "mae_usd"
+    ],
+    "query": {
+      "model": "fiscal_0",
+      "company": "Apple"
+    },
+    "operation": "billion",
+    "display": "4.483902"
+  },
+  {
+    "name": "BoundAD",
+    "file": "results/test_metrics.csv",
+    "field": [
+      "rmse_usd"
+    ],
+    "query": {
+      "model": "fiscal_0",
+      "company": "Apple"
+    },
+    "operation": "billion",
+    "display": "5.083163"
+  },
+  {
+    "name": "BoundAE",
+    "file": "results/test_metrics.csv",
+    "field": [
+      "mape_percent"
+    ],
+    "query": {
+      "model": "fiscal_0",
+      "company": "Apple"
+    },
+    "operation": "value",
+    "display": "4.162288"
+  },
+  {
+    "name": "BoundAF",
+    "file": "results/test_metrics.csv",
+    "field": [
+      "n"
+    ],
+    "query": {
+      "model": "calendar_0",
+      "company": "Apple"
+    },
+    "operation": "value",
+    "display": "5"
+  },
+  {
+    "name": "BoundAG",
+    "file": "results/test_metrics.csv",
+    "field": [
+      "mae_usd"
+    ],
+    "query": {
+      "model": "calendar_0",
+      "company": "Apple"
+    },
+    "operation": "billion",
+    "display": "4.537232"
+  },
+  {
+    "name": "BoundAH",
+    "file": "results/test_metrics.csv",
+    "field": [
+      "rmse_usd"
+    ],
+    "query": {
+      "model": "calendar_0",
+      "company": "Apple"
+    },
+    "operation": "billion",
+    "display": "5.284174"
+  },
+  {
+    "name": "BoundAI",
+    "file": "results/test_metrics.csv",
+    "field": [
+      "mape_percent"
+    ],
+    "query": {
+      "model": "calendar_0",
+      "company": "Apple"
+    },
+    "operation": "value",
+    "display": "4.179549"
+  },
+  {
+    "name": "BoundAJ",
+    "file": "results/test_metrics.csv",
+    "field": [
+      "n"
+    ],
+    "query": {
+      "model": "zero",
+      "company": "Microsoft"
+    },
+    "operation": "value",
+    "display": "4"
+  },
+  {
+    "name": "BoundAK",
+    "file": "results/test_metrics.csv",
+    "field": [
+      "mae_usd"
+    ],
+    "query": {
+      "model": "zero",
+      "company": "Microsoft"
+    },
+    "operation": "billion",
+    "display": "11.189250"
+  },
+  {
+    "name": "BoundAL",
+    "file": "results/test_metrics.csv",
+    "field": [
+      "rmse_usd"
+    ],
+    "query": {
+      "model": "zero",
+      "company": "Microsoft"
+    },
+    "operation": "billion",
+    "display": "11.328684"
+  },
+  {
+    "name": "BoundAM",
+    "file": "results/test_metrics.csv",
+    "field": [
+      "mape_percent"
+    ],
+    "query": {
+      "model": "zero",
+      "company": "Microsoft"
+    },
+    "operation": "value",
+    "display": "14.266926"
+  },
+  {
+    "name": "BoundAN",
+    "file": "results/test_metrics.csv",
+    "field": [
+      "n"
+    ],
+    "query": {
+      "model": "global",
+      "company": "Microsoft"
+    },
+    "operation": "value",
+    "display": "4"
+  },
+  {
+    "name": "BoundAO",
+    "file": "results/test_metrics.csv",
+    "field": [
+      "mae_usd"
+    ],
+    "query": {
+      "model": "global",
+      "company": "Microsoft"
+    },
+    "operation": "billion",
+    "display": "2.615641"
+  },
+  {
+    "name": "BoundAP",
+    "file": "results/test_metrics.csv",
+    "field": [
+      "rmse_usd"
+    ],
+    "query": {
+      "model": "global",
+      "company": "Microsoft"
+    },
+    "operation": "billion",
+    "display": "2.977488"
+  },
+  {
+    "name": "BoundAQ",
+    "file": "results/test_metrics.csv",
+    "field": [
+      "mape_percent"
+    ],
+    "query": {
+      "model": "global",
+      "company": "Microsoft"
+    },
+    "operation": "value",
+    "display": "3.260876"
+  },
+  {
+    "name": "BoundAR",
+    "file": "results/test_metrics.csv",
+    "field": [
+      "n"
+    ],
+    "query": {
+      "model": "fiscal_0",
+      "company": "Microsoft"
+    },
+    "operation": "value",
+    "display": "4"
+  },
+  {
+    "name": "BoundAS",
+    "file": "results/test_metrics.csv",
+    "field": [
+      "mae_usd"
+    ],
+    "query": {
+      "model": "fiscal_0",
+      "company": "Microsoft"
+    },
+    "operation": "billion",
+    "display": "2.497164"
+  },
+  {
+    "name": "BoundAT",
+    "file": "results/test_metrics.csv",
+    "field": [
+      "rmse_usd"
+    ],
+    "query": {
+      "model": "fiscal_0",
+      "company": "Microsoft"
+    },
+    "operation": "billion",
+    "display": "3.102052"
+  },
+  {
+    "name": "BoundAU",
+    "file": "results/test_metrics.csv",
+    "field": [
+      "mape_percent"
+    ],
+    "query": {
+      "model": "fiscal_0",
+      "company": "Microsoft"
+    },
+    "operation": "value",
+    "display": "3.124745"
+  },
+  {
+    "name": "BoundAV",
+    "file": "results/test_metrics.csv",
+    "field": [
+      "n"
+    ],
+    "query": {
+      "model": "calendar_0",
+      "company": "Microsoft"
+    },
+    "operation": "value",
+    "display": "4"
+  },
+  {
+    "name": "BoundAW",
+    "file": "results/test_metrics.csv",
+    "field": [
+      "mae_usd"
+    ],
+    "query": {
+      "model": "calendar_0",
+      "company": "Microsoft"
+    },
+    "operation": "billion",
+    "display": "2.556555"
+  },
+  {
+    "name": "BoundAX",
+    "file": "results/test_metrics.csv",
+    "field": [
+      "rmse_usd"
+    ],
+    "query": {
+      "model": "calendar_0",
+      "company": "Microsoft"
+    },
+    "operation": "billion",
+    "display": "2.784045"
+  },
+  {
+    "name": "BoundAY",
+    "file": "results/test_metrics.csv",
+    "field": [
+      "mape_percent"
+    ],
+    "query": {
+      "model": "calendar_0",
+      "company": "Microsoft"
+    },
+    "operation": "value",
+    "display": "3.220298"
+  },
+  {
+    "name": "BoundAZ",
+    "file": "results/test_metrics.csv",
+    "field": [
+      "n"
+    ],
+    "query": {
+      "model": "zero",
+      "company": "Walmart"
+    },
+    "operation": "value",
+    "display": "4"
+  },
+  {
+    "name": "BoundBA",
+    "file": "results/test_metrics.csv",
+    "field": [
+      "mae_usd"
+    ],
+    "query": {
+      "model": "zero",
+      "company": "Walmart"
+    },
+    "operation": "billion",
+    "display": "8.373750"
+  },
+  {
+    "name": "BoundBB",
+    "file": "results/test_metrics.csv",
+    "field": [
+      "rmse_usd"
+    ],
+    "query": {
+      "model": "zero",
+      "company": "Walmart"
+    },
+    "operation": "billion",
+    "display": "8.837549"
+  },
+  {
+    "name": "BoundBC",
+    "file": "results/test_metrics.csv",
+    "field": [
+      "mape_percent"
+    ],
+    "query": {
+      "model": "zero",
+      "company": "Walmart"
+    },
+    "operation": "value",
+    "display": "4.790704"
+  },
+  {
+    "name": "BoundBD",
+    "file": "results/test_metrics.csv",
+    "field": [
+      "n"
+    ],
+    "query": {
+      "model": "global",
+      "company": "Walmart"
+    },
+    "operation": "value",
+    "display": "4"
+  },
+  {
+    "name": "BoundBE",
+    "file": "results/test_metrics.csv",
+    "field": [
+      "mae_usd"
+    ],
+    "query": {
+      "model": "global",
+      "company": "Walmart"
+    },
+    "operation": "billion",
+    "display": "12.798273"
+  },
+  {
+    "name": "BoundBF",
+    "file": "results/test_metrics.csv",
+    "field": [
+      "rmse_usd"
+    ],
+    "query": {
+      "model": "global",
+      "company": "Walmart"
+    },
+    "operation": "billion",
+    "display": "13.060187"
+  },
+  {
+    "name": "BoundBG",
+    "file": "results/test_metrics.csv",
+    "field": [
+      "mape_percent"
+    ],
+    "query": {
+      "model": "global",
+      "company": "Walmart"
+    },
+    "operation": "value",
+    "display": "7.431864"
+  },
+  {
+    "name": "BoundBH",
+    "file": "results/test_metrics.csv",
+    "field": [
+      "n"
+    ],
+    "query": {
+      "model": "fiscal_0",
+      "company": "Walmart"
+    },
+    "operation": "value",
+    "display": "4"
+  },
+  {
+    "name": "BoundBI",
+    "file": "results/test_metrics.csv",
+    "field": [
+      "mae_usd"
+    ],
+    "query": {
+      "model": "fiscal_0",
+      "company": "Walmart"
+    },
+    "operation": "billion",
+    "display": "12.173222"
+  },
+  {
+    "name": "BoundBJ",
+    "file": "results/test_metrics.csv",
+    "field": [
+      "rmse_usd"
+    ],
+    "query": {
+      "model": "fiscal_0",
+      "company": "Walmart"
+    },
+    "operation": "billion",
+    "display": "12.715744"
+  },
+  {
+    "name": "BoundBK",
+    "file": "results/test_metrics.csv",
+    "field": [
+      "mape_percent"
+    ],
+    "query": {
+      "model": "fiscal_0",
+      "company": "Walmart"
+    },
+    "operation": "value",
+    "display": "7.043753"
+  },
+  {
+    "name": "BoundBL",
+    "file": "results/test_metrics.csv",
+    "field": [
+      "n"
+    ],
+    "query": {
+      "model": "calendar_0",
+      "company": "Walmart"
+    },
+    "operation": "value",
+    "display": "4"
+  },
+  {
+    "name": "BoundBM",
+    "file": "results/test_metrics.csv",
+    "field": [
+      "mae_usd"
+    ],
+    "query": {
+      "model": "calendar_0",
+      "company": "Walmart"
+    },
+    "operation": "billion",
+    "display": "11.838052"
+  },
+  {
+    "name": "BoundBN",
+    "file": "results/test_metrics.csv",
+    "field": [
+      "rmse_usd"
+    ],
+    "query": {
+      "model": "calendar_0",
+      "company": "Walmart"
+    },
+    "operation": "billion",
+    "display": "12.404379"
+  },
+  {
+    "name": "BoundBO",
+    "file": "results/test_metrics.csv",
+    "field": [
+      "mape_percent"
+    ],
+    "query": {
+      "model": "calendar_0",
+      "company": "Walmart"
+    },
+    "operation": "value",
+    "display": "6.876572"
+  },
+  {
+    "name": "BoundBP",
+    "file": "results/test_metrics.csv",
+    "field": [
+      "n"
+    ],
+    "query": {
+      "model": "zero",
+      "company": "MACRO"
+    },
+    "operation": "value",
+    "display": "13"
+  },
+  {
+    "name": "BoundBQ",
+    "file": "results/test_metrics.csv",
+    "field": [
+      "mae_usd"
+    ],
+    "query": {
+      "model": "zero",
+      "company": "MACRO"
+    },
+    "operation": "billion",
+    "display": "10.756133"
+  },
+  {
+    "name": "BoundBR",
+    "file": "results/test_metrics.csv",
+    "field": [
+      "rmse_usd"
+    ],
+    "query": {
+      "model": "zero",
+      "company": "MACRO"
+    },
+    "operation": "billion",
+    "display": "11.509923"
+  },
+  {
+    "name": "BoundBS",
+    "file": "results/test_metrics.csv",
+    "field": [
+      "mape_percent"
+    ],
+    "query": {
+      "model": "zero",
+      "company": "MACRO"
+    },
+    "operation": "value",
+    "display": "10.048371"
+  },
+  {
+    "name": "BoundBT",
+    "file": "results/test_metrics.csv",
+    "field": [
+      "n"
+    ],
+    "query": {
+      "model": "global",
+      "company": "MACRO"
+    },
+    "operation": "value",
+    "display": "13"
+  },
+  {
+    "name": "BoundBU",
+    "file": "results/test_metrics.csv",
+    "field": [
+      "mae_usd"
+    ],
+    "query": {
+      "model": "global",
+      "company": "MACRO"
+    },
+    "operation": "billion",
+    "display": "6.483860"
+  },
+  {
+    "name": "BoundBV",
+    "file": "results/test_metrics.csv",
+    "field": [
+      "rmse_usd"
+    ],
+    "query": {
+      "model": "global",
+      "company": "MACRO"
+    },
+    "operation": "billion",
+    "display": "8.125692"
+  },
+  {
+    "name": "BoundBW",
+    "file": "results/test_metrics.csv",
+    "field": [
+      "mape_percent"
+    ],
+    "query": {
+      "model": "global",
+      "company": "MACRO"
+    },
+    "operation": "value",
+    "display": "4.830617"
+  },
+  {
+    "name": "BoundBX",
+    "file": "results/test_metrics.csv",
+    "field": [
+      "n"
+    ],
+    "query": {
+      "model": "fiscal_0",
+      "company": "MACRO"
+    },
+    "operation": "value",
+    "display": "13"
+  },
+  {
+    "name": "BoundBY",
+    "file": "results/test_metrics.csv",
+    "field": [
+      "mae_usd"
+    ],
+    "query": {
+      "model": "fiscal_0",
+      "company": "MACRO"
+    },
+    "operation": "billion",
+    "display": "6.384763"
+  },
+  {
+    "name": "BoundBZ",
+    "file": "results/test_metrics.csv",
+    "field": [
+      "rmse_usd"
+    ],
+    "query": {
+      "model": "fiscal_0",
+      "company": "MACRO"
+    },
+    "operation": "billion",
+    "display": "8.106611"
+  },
+  {
+    "name": "BoundCA",
+    "file": "results/test_metrics.csv",
+    "field": [
+      "mape_percent"
+    ],
+    "query": {
+      "model": "fiscal_0",
+      "company": "MACRO"
+    },
+    "operation": "value",
+    "display": "4.776929"
+  },
+  {
+    "name": "BoundCB",
+    "file": "results/test_metrics.csv",
+    "field": [
+      "n"
+    ],
+    "query": {
+      "model": "calendar_0",
+      "company": "MACRO"
+    },
+    "operation": "value",
+    "display": "13"
+  },
+  {
+    "name": "BoundCC",
+    "file": "results/test_metrics.csv",
+    "field": [
+      "mae_usd"
+    ],
+    "query": {
+      "model": "calendar_0",
+      "company": "MACRO"
+    },
+    "operation": "billion",
+    "display": "6.310613"
+  },
+  {
+    "name": "BoundCD",
+    "file": "results/test_metrics.csv",
+    "field": [
+      "rmse_usd"
+    ],
+    "query": {
+      "model": "calendar_0",
+      "company": "MACRO"
+    },
+    "operation": "billion",
+    "display": "7.948627"
+  },
+  {
+    "name": "BoundCE",
+    "file": "results/test_metrics.csv",
+    "field": [
+      "mape_percent"
+    ],
+    "query": {
+      "model": "calendar_0",
+      "company": "MACRO"
+    },
+    "operation": "value",
+    "display": "4.758807"
+  },
+  {
+    "name": "BoundCF",
+    "file": "results/source_summary.json",
+    "field": [
+      "facts"
+    ],
+    "query": null,
+    "operation": "commas",
+    "display": "373"
+  },
+  {
+    "name": "BoundCG",
+    "file": "results/source_summary.json",
+    "field": [
+      "filing_rows"
+    ],
+    "query": null,
+    "operation": "commas",
+    "display": "7,007"
+  },
+  {
+    "name": "BoundCH",
+    "file": "results/NATIVE_CHECK.json",
+    "field": [
+      "independent_native_conditions"
+    ],
+    "query": null,
+    "operation": "commas",
+    "display": "38,426"
+  },
+  {
+    "name": "BoundCI",
+    "file": "results/INDEPENDENT_TEST.json",
+    "field": [
+      "independent_sql_fraction_conditions"
+    ],
+    "query": null,
+    "operation": "commas",
+    "display": "4,243"
+  },
+  {
+    "name": "BoundCJ",
+    "file": "results/EXERCISE_CHECK.json",
+    "field": [
+      "qualified"
+    ],
+    "query": null,
+    "operation": "value",
+    "display": "2"
+  },
+  {
+    "name": "BoundCK",
+    "file": "results/EXERCISE_CHECK.json",
+    "field": [
+      "abstained"
+    ],
+    "query": null,
+    "operation": "value",
+    "display": "2"
+  },
+  {
+    "name": "BoundCL",
+    "file": "results/EXERCISE_CHECK.json",
+    "field": [
+      "rejected"
+    ],
+    "query": null,
+    "operation": "value",
+    "display": "4"
+  }
+]

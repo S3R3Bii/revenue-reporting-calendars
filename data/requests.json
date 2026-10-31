@@ -1,0 +1,55 @@
+[
+  {
+    "scope": "reported_fiscal_slot_forecast",
+    "pair_id": "0000104169:2026:Q1",
+    "origin": "2024-06-08",
+    "model": "fiscal"
+  },
+  {
+    "scope": "reported_fiscal_slot_forecast",
+    "pair_id": "0000104169:2026:Q1",
+    "origin": "2024-06-08",
+    "model": "calendar"
+  },
+  {
+    "scope": "reported_fiscal_slot_forecast",
+    "pair_id": "0000104169:2026:Q1",
+    "origin": "2020-01-01",
+    "model": "fiscal"
+  },
+  {
+    "scope": "reported_fiscal_slot_forecast",
+    "pair_id": "absent",
+    "origin": "2024-06-08",
+    "model": "fiscal"
+  },
+  {
+    "scope": "investment_advice",
+    "pair_id": "0000104169:2026:Q1",
+    "origin": "2024-06-08",
+    "model": "fiscal"
+  },
+  {
+    "scope": "source_truth",
+    "pair_id": "0000104169:2026:Q1",
+    "origin": "2024-06-08",
+    "model": "fiscal"
+  },
+  {
+    "scope": "exact_future_filing_date",
+    "pair_id": "0000104169:2026:Q1",
+    "origin": "2024-06-08",
+    "model": "fiscal"
+  },
+  {
+    "scope": "reported_fiscal_slot_forecast",
+    "pair_id": "0000104169:2026:Q1",
+    "origin": "2024-06-08",
+    "model": "fiscal",
+    "caller_data": [
+      1,
+      2,
+      3
+    ]
+  }
+]

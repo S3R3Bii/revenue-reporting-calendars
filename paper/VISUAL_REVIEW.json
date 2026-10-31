@@ -1,0 +1,27 @@
+{
+  "timestamp_utc": "2026-10-31T05:25:03.404055+00:00",
+  "status": "PASS_CURRENT_RENDERED_REVIEW",
+  "rendered_pages_inspected": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+  ],
+  "figures_inspected": 3,
+  "checks": [
+    "Legible labels, units, zero reference and honest bar encoding",
+    "No clipping or overlapping text in current six-page PDF",
+    "All sixteen company/macro rows readable",
+    "Practical result and source/availability limits on first page",
+    "Final TeX log has no overfull/underfull layout warnings"
+  ],
+  "sha256": {
+    "paper/manuscript.pdf": "fb9114d7658b6afc2be01bf3c71c0cfa8cecef4cffd3efa275435d50c3ddcc2f",
+    "figures/validation_candidates.png": "d6c2260c991ccccd0974a08f656313f38eb88373dc32a8cdb5bf9f4bb692004b",
+    "figures/company_test.png": "c6c89b2d75120bff189576287ddaed29b6f093deb554882a0d0b3f13458f3630",
+    "figures/dependence_checks.png": "1cb624d0efbbf203dc7275a919bd6e68573b6ba301ff254aa56fa2cbfd4b7446"
+  },
+  "limitations": "Visual inspection plus separate source/geometry/PDF checks; no accessibility conformance or scientific-priority certification."
+}

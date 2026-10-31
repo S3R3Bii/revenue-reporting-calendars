@@ -1,0 +1,132 @@
+[
+  {
+    "array_lengths": {
+      "acceptanceDateTime": 2000,
+      "accessionNumber": 2000,
+      "act": 2000,
+      "core_type": 2000,
+      "fileNumber": 2000,
+      "filingDate": 2000,
+      "filmNumber": 2000,
+      "form": 2000,
+      "isInlineXBRL": 2000,
+      "isXBRL": 2000,
+      "isXBRLNumeric": 2000,
+      "items": 2000,
+      "primaryDocDescription": 2000,
+      "primaryDocument": 2000,
+      "reportDate": 2000,
+      "size": 2000
+    },
+    "count": 2000,
+    "file": "CIK0000104169-submissions-001.json",
+    "kind": "filings"
+  },
+  {
+    "array_lengths": {
+      "acceptanceDateTime": 2005,
+      "accessionNumber": 2005,
+      "act": 2005,
+      "core_type": 2005,
+      "fileNumber": 2005,
+      "filingDate": 2005,
+      "filmNumber": 2005,
+      "form": 2005,
+      "isInlineXBRL": 2005,
+      "isXBRL": 2005,
+      "isXBRLNumeric": 2005,
+      "items": 2005,
+      "primaryDocDescription": 2005,
+      "primaryDocument": 2005,
+      "reportDate": 2005,
+      "size": 2005
+    },
+    "count": 2005,
+    "file": "CIK0000789019-submissions-001.json",
+    "kind": "filings"
+  },
+  {
+    "count": 120,
+    "file": "companyfacts-0000104169.json",
+    "kind": "facts"
+  },
+  {
+    "count": 117,
+    "file": "companyfacts-0000320193.json",
+    "kind": "facts"
+  },
+  {
+    "count": 136,
+    "file": "companyfacts-0000789019.json",
+    "kind": "facts"
+  },
+  {
+    "array_lengths": {
+      "acceptanceDateTime": 1001,
+      "accessionNumber": 1001,
+      "act": 1001,
+      "core_type": 1001,
+      "fileNumber": 1001,
+      "filingDate": 1001,
+      "filmNumber": 1001,
+      "form": 1001,
+      "isInlineXBRL": 1001,
+      "isXBRL": 1001,
+      "isXBRLNumeric": 1001,
+      "items": 1001,
+      "primaryDocDescription": 1001,
+      "primaryDocument": 1001,
+      "reportDate": 1001,
+      "size": 1001
+    },
+    "count": 1001,
+    "file": "submissions-0000104169.json",
+    "kind": "filings"
+  },
+  {
+    "array_lengths": {
+      "acceptanceDateTime": 1000,
+      "accessionNumber": 1000,
+      "act": 1000,
+      "core_type": 1000,
+      "fileNumber": 1000,
+      "filingDate": 1000,
+      "filmNumber": 1000,
+      "form": 1000,
+      "isInlineXBRL": 1000,
+      "isXBRL": 1000,
+      "isXBRLNumeric": 1000,
+      "items": 1000,
+      "primaryDocDescription": 1000,
+      "primaryDocument": 1000,
+      "reportDate": 1000,
+      "size": 1000
+    },
+    "count": 1000,
+    "file": "submissions-0000320193.json",
+    "kind": "filings"
+  },
+  {
+    "array_lengths": {
+      "acceptanceDateTime": 1001,
+      "accessionNumber": 1001,
+      "act": 1001,
+      "core_type": 1001,
+      "fileNumber": 1001,
+      "filingDate": 1001,
+      "filmNumber": 1001,
+      "form": 1001,
+      "isInlineXBRL": 1001,
+      "isXBRL": 1001,
+      "isXBRLNumeric": 1001,
+      "items": 1001,
+      "primaryDocDescription": 1001,
+      "primaryDocument": 1001,
+      "reportDate": 1001,
+      "size": 1001
+    },
+    "count": 1001,
+    "file": "submissions-0000789019.json",
+    "kind": "filings"
+  }
+]

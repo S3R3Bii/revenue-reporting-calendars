@@ -5,3 +5,6 @@ __pycache__/
 .replay/
 paper/main.pdf
 paper/main.log
+paper/*.aux
+paper/*.out
+paper/*.xdv
