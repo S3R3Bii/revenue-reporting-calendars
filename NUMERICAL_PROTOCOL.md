@@ -20,29 +20,29 @@ Use captured recent and listed historical Submissions arrays to associate each f
 
 Keep only original form 10-Q facts whose source form and filed day match unique Submissions metadata. Amendments, annual reports and other forms remain in the complete source accounts but are excluded from quarterly targets. Match fact end exactly to that filing's reportDate, so a filing's fiscal focus is applied only to its own current report interval, never to comparative periods.
 
-Require a valid start/end interval of 61-121 inclusive days, using the SEC's approximate quarterly duration convention of 91 days plus/minus30 as an authored gate, not an exact fiscal-calendar certificate. Require fp in Q1/Q2/Q3, a known integer fiscal-year focus, and a finite strictly positive USD value. No synthetic fourth-quarter residual is created from annual-minus-year-to-date values. Reported nonpositive or unavailable values remain explicit and outside percentage-loss calculations.
+Require a valid start/end interval of 61-121 inclusive days, using the SEC's approximate quarterly duration convention of 91 days plus/minus 30 as an authored gate, not an exact fiscal-calendar certificate. Require fp in Q1/Q2/Q3, a known integer fiscal-year focus, and a finite strictly positive USD value. No synthetic fourth-quarter residual is created from annual-minus-year-to-date values. Reported nonpositive or unavailable values remain explicit and outside percentage-loss calculations.
 
 A complete economic context is CIK/concept/unit/accession/start/end. Exact repeated entries with equal numeric value and consistent filing/fiscal metadata may be collapsed with multiplicity retained; conflicting values make that context unavailable. For a CIK/fiscal-year/fiscal-quarter slot require one actual report end. Conflicting report ends make the slot unavailable. Where multiple original accessions describe the same slot/end, choose the earliest filed day then accession under a declared deterministic rule, retaining every candidate and exclusion.
 
-Restrict quarterly observations to report ends from2018-01-01 through2026-06-30 inclusive. Retain every company/fiscal-year/quarter slot and every reason a source entry is not an eligible observation. Values will be visible during reconciliation; this is source informed, not blinded.
+Restrict quarterly observations to report ends from 2018-01-01 through 2026-06-30 inclusive. Retain every company/fiscal-year/quarter slot and every reason a source entry is not an eligible observation. Values will be visible during reconciliation; this is source informed, not blinded.
 
 ## One-year forecast pair and availability contract
 
-For each eligible target quarter pair the same company and fiscal quarter in the immediately preceding fiscal-year focus. Require the difference between period ends to be335-395 days, an authored one-year tolerance of365 plus/minus30. Preserve unavailable pairs; do not choose an alternative prior quarter.
+For each eligible target quarter pair the same company and fiscal quarter in the immediately preceding fiscal-year focus. Require the difference between period ends to be 335-395 days, an authored one-year tolerance of 365 plus/minus 30. Preserve unavailable pairs; do not choose an alternative prior quarter.
 
 The forecast origin is the prior quarter's filed day plus one calendar day. Inputs are the prior reported revenue, the prior filing's known fiscal quarter and the calendar quarter of its actual prior report end. Neither the future target end nor future filing focus is an input. The target is the next fiscal year's same reported quarterly concept. This assumes persistence of that reporting slot; no exact future filing schedule is predicted.
 
-A growth label is target/prior minus1. It becomes usable for fitting on its target filed day plus one day. Every fitting label must have that availability day strictly before the forecast origin. This is a conservative filing-day reconstruction using current source metadata and accession-bound facts. It is not a verified immutable production point-in-time dataset; source revisions, extraction error and unavailable original dissemination evidence remain limitations.
+A growth label is target/prior minus 1. It becomes usable for fitting on its target filed day plus one day. Every fitting label must have that availability day strictly before the forecast origin. This is a conservative filing-day reconstruction using current source metadata and accession-bound facts. It is not a verified immutable production point-in-time dataset; source revisions, extraction error and unavailable original dissemination evidence remain limitations.
 
 ## Fixed company and temporal separation
 
 Training companies: Apple and Microsoft. Walmart growth labels are never used in fitting, smoothing selection, preprocessing or validation; its own prior reported amount and known period label can serve as forecast inputs.
 
-Training-label report ends:2019-01-01 through2021-12-31. Validation targets for Apple/Microsoft:2022-01-01 through2023-12-31. For each validation forecast fit only training-company labels in the training window that are available strictly before its origin.
+Training-label report ends: 2019-01-01 through 2021-12-31. Validation targets for Apple/Microsoft: 2022-01-01 through 2023-12-31. For each validation forecast fit only training-company labels in the training window that are available strictly before its origin.
 
-Use2024 target growth labels as an embargo: they are never used for fitting or selection. Their quarter revenue can be a prior input for later forecasts when already reported. This separation allows all selected validation outcomes to be known before the protected test origins.
+Use 2024 target growth labels as an embargo: they are never used for fitting or selection. Their quarter revenue can be a prior input for later forecasts when already reported. This separation allows all selected validation outcomes to be known before the protected test origins.
 
-Final test targets for all three companies:2025-01-01 through2026-06-30. After selection, the fitting pool can include training-company labels through2023-12-31, still filtered by availability strictly before each origin. Do not incorporate any2024 or final-test growth label. Every test origin must be strictly after the maximum validation target availability day; fail the gate rather than silently dropping an offending forecast.
+Final test targets for all three companies: 2025-01-01 through 2026-06-30. After selection, the fitting pool can include training-company labels through 2023-12-31, still filtered by availability strictly before each origin. Do not incorporate any 2024 or final-test growth label. Every test origin must be strictly after the maximum validation target availability day; fail the gate rather than silently dropping an offending forecast.
 
 Report Apple/Microsoft future-time results and Walmart held-out-company results separately, with every forecast and denominator retained. Require at least three usable training labels for each training company, three validation pairs for each training company, and three test pairs per fixed company. A forecast needs at least three available fitting labels in total. If these minimum source/evaluation gates fail, do not replace a company, move dates or claim a protected forecasting result.
 
@@ -54,7 +54,7 @@ Deterministic candidates:
 3. Fiscal pooled growth: group fitting growth by its known prior fiscal-quarter label.
 4. Calendar pooled growth: group fitting growth by the calendar quarter of its prior report end.
 
-For the two grouped families, use prior-count strengths a in[0,1,4,16]. Predict growth as(sum group growth + a*global mean)/(group count+a). If a group is unseen, use the global mean even at a=0. The coarse pseudo-count grid spans no shrinkage through substantial pooling for a small cohort; these are authored candidates, not inherited tuned defaults or a global optimum. All fitting calculations and forecasts use exact Fraction arithmetic.
+For the two grouped families, use prior-count strengths a in [0,1,4,16]. Predict growth as(sum group growth + a*global mean)/(group count+a). If a group is unseen, use the global mean even at a=0. The coarse pseudo-count grid spans no shrinkage through substantial pooling for a small cohort; these are authored candidates, not inherited tuned defaults or a global optimum. All fitting calculations and forecasts use exact Fraction arithmetic.
 
 Forecast USD=prior USD*(1+predicted growth). Positive source revenue implies growth greater than-1, so these mean-based forecasts remain positive without clipping. Retain any violated invariant as a failure.
 
@@ -66,7 +66,7 @@ Commit the selected configuration and validation hashes before the first final-t
 
 Export observation-level predictions, actual USD, prior USD, fiscal and calendar labels, origin/label availability, selected model and fitting-row membership for every validation and final-test case. Independently reconstruct fitting sets, pooled means, selection and losses without the production model functions.
 
-Report MAE in USD, MSE in USD squared, RMSE in USD, and MAPE by company/model and macro across companies. Exact rational sums are retained; RMSE displays use60-digit Decimal square roots with a declared six-decimal half-even representation. No post-result clipping, weighting or cohort change.
+Report MAE in USD, MSE in USD squared, RMSE in USD, and MAPE by company/model and macro across companies. Exact rational sums are retained; RMSE displays use 60-digit Decimal square roots with a declared six-decimal half-even representation. No post-result clipping, weighting or cohort change.
 
 The final window has only two calendar years and three firms, including one company holdout. Preserve each year/company subgroup and paired calendar-versus-fiscal absolute-percentage-loss difference. Report leave-one-company-out and leave-one-year-out macro-loss differences as descriptive dependence checks. Do not claim calibrated confidence intervals, statistical significance or a population-wide winner from so few independent blocks.
 
