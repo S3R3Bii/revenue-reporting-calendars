@@ -1,0 +1,11 @@
+{
+  "scope": "independent-program-study",
+  "formal_submission_target": false,
+  "public_files": {
+    "paper/main.tex": "28aa60b4eb80f2e08501b4447acee2128acf0c370914c7a063b24eb9697a0a84",
+    "paper/manuscript.pdf": "fb9114d7658b6afc2be01bf3c71c0cfa8cecef4cffd3efa275435d50c3ddcc2f",
+    "paper/images/validation_candidates.pdf": "a7633b7033c6d336542de7bad78fe902d24e21ad6aaffa0d49ff1f04d3c5275a",
+    "paper/images/company_test.pdf": "cf897be58f68b80e6d2298a295b5840eb2ce46e88a2f89601559590c23e8312c",
+    "paper/images/dependence_checks.pdf": "269e648af1365f9318850a5b72fd86b04f19cc0efe62d3953069066273099cb8"
+  }
+}

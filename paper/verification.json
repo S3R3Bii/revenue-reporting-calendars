@@ -1,0 +1,9 @@
+{
+  "status": "PASS",
+  "finite_conditions": 393,
+  "used_bindings": 90,
+  "complete_metric_rows": 16,
+  "pages": 6,
+  "scope_files": 5,
+  "rendered_visual_review": "separate"
+}

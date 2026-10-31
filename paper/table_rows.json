@@ -1,0 +1,82 @@
+[
+  {
+    "company": "Apple",
+    "model": "zero",
+    "label": "Zero"
+  },
+  {
+    "company": "Apple",
+    "model": "global",
+    "label": "Global"
+  },
+  {
+    "company": "Apple",
+    "model": "fiscal_0",
+    "label": "Fiscal / 0"
+  },
+  {
+    "company": "Apple",
+    "model": "calendar_0",
+    "label": "Calendar / 0"
+  },
+  {
+    "company": "Microsoft",
+    "model": "zero",
+    "label": "Zero"
+  },
+  {
+    "company": "Microsoft",
+    "model": "global",
+    "label": "Global"
+  },
+  {
+    "company": "Microsoft",
+    "model": "fiscal_0",
+    "label": "Fiscal / 0"
+  },
+  {
+    "company": "Microsoft",
+    "model": "calendar_0",
+    "label": "Calendar / 0"
+  },
+  {
+    "company": "Walmart",
+    "model": "zero",
+    "label": "Zero"
+  },
+  {
+    "company": "Walmart",
+    "model": "global",
+    "label": "Global"
+  },
+  {
+    "company": "Walmart",
+    "model": "fiscal_0",
+    "label": "Fiscal / 0"
+  },
+  {
+    "company": "Walmart",
+    "model": "calendar_0",
+    "label": "Calendar / 0"
+  },
+  {
+    "company": "MACRO",
+    "model": "zero",
+    "label": "Zero"
+  },
+  {
+    "company": "MACRO",
+    "model": "global",
+    "label": "Global"
+  },
+  {
+    "company": "MACRO",
+    "model": "fiscal_0",
+    "label": "Fiscal / 0"
+  },
+  {
+    "company": "MACRO",
+    "model": "calendar_0",
+    "label": "Calendar / 0"
+  }
+]
