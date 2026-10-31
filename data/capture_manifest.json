@@ -1,0 +1,191 @@
+{
+  "source_access": "PASS_NATIVE_DECODED_JSON_CAPTURE_ONLY",
+  "files": [
+    {
+      "file": "CIK0000104169-submissions-001.json",
+      "url": "https://data.sec.gov/submissions/CIK0000104169-submissions-001.json",
+      "kind": "submission_history",
+      "cik": "0000104169",
+      "listed_file": {
+        "name": "CIK0000104169-submissions-001.json",
+        "filingCount": 2000,
+        "filingFrom": "2012-07-10",
+        "filingTo": "2023-06-07"
+      },
+      "started_utc": "2026-10-31T05:12:39.393Z",
+      "completed_utc": "2026-10-31T05:12:39.817Z",
+      "bytes": 312765,
+      "sha256": "acc4e8e975c54f7610354cb19fdb0575da3171c4d2e6f6f7b2c8609ae1b3378a",
+      "http_status": 200,
+      "headers": {
+        "content-encoding": "gzip",
+        "content-length": "38704",
+        "content-type": "application/json",
+        "date": "Sat, 31 Oct 2026 05:12:39 GMT"
+      },
+      "capture": "Native decoded response from ordinary public browser navigation to exact source-listed history filename",
+      "protocol_commit": "fa00f3b956c8ab1980803b9a1e8d4180b224f990",
+      "transport_addendum_commit": "697c5d1a97108c7eb944e5214a8dcca0f3e9c081",
+      "inspected": "Only metadata fields and listed filing-count control;no revenue values"
+    },
+    {
+      "file": "CIK0000789019-submissions-001.json",
+      "url": "https://data.sec.gov/submissions/CIK0000789019-submissions-001.json",
+      "kind": "submission_history",
+      "cik": "0000789019",
+      "listed_file": {
+        "name": "CIK0000789019-submissions-001.json",
+        "filingCount": 2005,
+        "filingFrom": "2008-08-28",
+        "filingTo": "2020-09-07"
+      },
+      "started_utc": "2026-10-31T05:12:38.852Z",
+      "completed_utc": "2026-10-31T05:12:39.380Z",
+      "bytes": 308181,
+      "sha256": "bd8d4e5c30f839955b7bd56f9353207e4ed94fa9132d30a4c17c7742d87bbbfd",
+      "http_status": 200,
+      "headers": {
+        "content-encoding": "gzip",
+        "content-length": "38464",
+        "content-type": "application/json",
+        "date": "Sat, 31 Oct 2026 05:12:39 GMT"
+      },
+      "capture": "Native decoded response from ordinary public browser navigation to exact source-listed history filename",
+      "protocol_commit": "fa00f3b956c8ab1980803b9a1e8d4180b224f990",
+      "transport_addendum_commit": "697c5d1a97108c7eb944e5214a8dcca0f3e9c081",
+      "inspected": "Only metadata fields and listed filing-count control;no revenue values"
+    },
+    {
+      "file": "companyfacts-0000104169.json",
+      "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000104169.json",
+      "kind": "companyfacts",
+      "cik": "0000104169",
+      "started_utc": "2026-10-31T05:09:03.384Z",
+      "completed_utc": "2026-10-31T05:09:04.661Z",
+      "bytes": 3771831,
+      "sha256": "49330f98609f70fcef4054edc90bc811398a58c4bf26dc0b218d607967a8dbe4",
+      "http_status": 200,
+      "headers": {
+        "content-encoding": "gzip",
+        "content-length": "263215",
+        "content-type": "application/json",
+        "date": "Sat, 31 Oct 2026 05:09:03 GMT"
+      },
+      "capture": "Native decoded Network.getResponseBody after ordinary public browser navigation;no authentication,header or security change",
+      "protocol_commit": "fa00f3b956c8ab1980803b9a1e8d4180b224f990",
+      "transport_addendum_commit": "697c5d1a97108c7eb944e5214a8dcca0f3e9c081",
+      "inspected": "Top-level structure and CIK/entity identity only;no revenue values inspected"
+    },
+    {
+      "file": "companyfacts-0000320193.json",
+      "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000320193.json",
+      "kind": "companyfacts",
+      "cik": "0000320193",
+      "started_utc": "2026-10-31T05:09:02.378Z",
+      "completed_utc": "2026-10-31T05:09:03.367Z",
+      "bytes": 3789099,
+      "sha256": "73a86c6aedc31f77cac2ea4df5f80f0b3bd7e6eb58bb4e01444fbedf3afb9c43",
+      "http_status": 200,
+      "headers": {
+        "content-encoding": "gzip",
+        "content-length": "271819",
+        "content-type": "application/json",
+        "date": "Sat, 31 Oct 2026 05:09:02 GMT"
+      },
+      "capture": "Native decoded Network.getResponseBody after ordinary public browser navigation;no authentication,header or security change",
+      "protocol_commit": "fa00f3b956c8ab1980803b9a1e8d4180b224f990",
+      "transport_addendum_commit": "697c5d1a97108c7eb944e5214a8dcca0f3e9c081",
+      "inspected": "Top-level structure and CIK/entity identity only;no revenue values inspected"
+    },
+    {
+      "file": "companyfacts-0000789019.json",
+      "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000789019.json",
+      "kind": "companyfacts",
+      "cik": "0000789019",
+      "started_utc": "2026-10-31T05:08:06.133Z",
+      "completed_utc": "2026-10-31T05:08:16.415Z",
+      "bytes": 4936836,
+      "sha256": "464cc12cc4796c90a6a0c709eb4920788aa7d4d5eee8b44f2d11d7d44804ae37",
+      "http_status": 200,
+      "headers": {
+        "content-encoding": "gzip",
+        "content-length": "340245",
+        "content-type": "application/json",
+        "date": "Sat, 31 Oct 2026 05:08:06 GMT"
+      },
+      "capture": "Native decoded Network.getResponseBody after ordinary public browser navigation;no authentication,header or security change",
+      "protocol_commit": "fa00f3b956c8ab1980803b9a1e8d4180b224f990",
+      "transport_addendum_commit": "697c5d1a97108c7eb944e5214a8dcca0f3e9c081",
+      "targeted_retry": "One initial preservation attempt lacked a cached body;one declared instrumented reload succeeded",
+      "inspected": "Top-level structure,CIK/entity identity and taxonomy keys only;revenue values not inspected"
+    },
+    {
+      "file": "submissions-0000104169.json",
+      "url": "https://data.sec.gov/submissions/CIK0000104169.json",
+      "kind": "submissions",
+      "cik": "0000104169",
+      "started_utc": "2026-10-31T05:09:13.805Z",
+      "completed_utc": "2026-10-31T05:09:14.142Z",
+      "bytes": 157476,
+      "sha256": "3361cb162d60ddceffdb37060f1dfffbd321eb64cc58ee410c539446fc7d8318",
+      "http_status": 200,
+      "headers": {
+        "content-encoding": "gzip",
+        "content-length": "22676",
+        "content-type": "application/json",
+        "date": "Sat, 31 Oct 2026 05:09:13 GMT"
+      },
+      "capture": "Native decoded Network.getResponseBody after ordinary public browser navigation;no authentication,header or security change",
+      "protocol_commit": "fa00f3b956c8ab1980803b9a1e8d4180b224f990",
+      "transport_addendum_commit": "697c5d1a97108c7eb944e5214a8dcca0f3e9c081",
+      "inspected": "Top-level structure and CIK/entity identity only;no revenue values inspected"
+    },
+    {
+      "file": "submissions-0000320193.json",
+      "url": "https://data.sec.gov/submissions/CIK0000320193.json",
+      "kind": "submissions",
+      "cik": "0000320193",
+      "started_utc": "2026-10-31T05:09:13.192Z",
+      "completed_utc": "2026-10-31T05:09:13.473Z",
+      "bytes": 163586,
+      "sha256": "2a1c62401f90039b5f3c10a80e3c4bb7f112c6e833ef0a163469f8b949396510",
+      "http_status": 200,
+      "headers": {
+        "content-encoding": "gzip",
+        "content-length": "28106",
+        "content-type": "application/json",
+        "date": "Sat, 31 Oct 2026 05:09:13 GMT"
+      },
+      "capture": "Native decoded Network.getResponseBody after ordinary public browser navigation;no authentication,header or security change",
+      "protocol_commit": "fa00f3b956c8ab1980803b9a1e8d4180b224f990",
+      "transport_addendum_commit": "697c5d1a97108c7eb944e5214a8dcca0f3e9c081",
+      "inspected": "Top-level structure and CIK/entity identity only;no revenue values inspected"
+    },
+    {
+      "file": "submissions-0000789019.json",
+      "url": "https://data.sec.gov/submissions/CIK0000789019.json",
+      "kind": "submissions",
+      "cik": "0000789019",
+      "started_utc": "2026-10-31T05:09:13.486Z",
+      "completed_utc": "2026-10-31T05:09:13.787Z",
+      "bytes": 185269,
+      "sha256": "46f3d184653f44f040005c30746b50f6e6a3e93b6e08630d4b400a73a9f6738e",
+      "http_status": 200,
+      "headers": {
+        "content-encoding": "gzip",
+        "content-length": "20854",
+        "content-type": "application/json",
+        "date": "Sat, 31 Oct 2026 05:09:13 GMT"
+      },
+      "capture": "Native decoded Network.getResponseBody after ordinary public browser navigation;no authentication,header or security change",
+      "protocol_commit": "fa00f3b956c8ab1980803b9a1e8d4180b224f990",
+      "transport_addendum_commit": "697c5d1a97108c7eb944e5214a8dcca0f3e9c081",
+      "inspected": "Top-level structure and CIK/entity identity only;no revenue values inspected"
+    }
+  ],
+  "decoded_bytes": 13625043,
+  "native_bodies_public": false,
+  "original_wire_compressed_byte_identity": "NOT_CLAIMED",
+  "inspected_before_numerical_design": "Top-level structure,CIK/entity identity,metadata field names and source-listed historical-file ranges/counts only;no revenue values",
+  "scope": "Three current Company Facts snapshots,three current Submissions snapshots and two listed history files;not an atomic or immutable historical capture."
+}
